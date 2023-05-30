@@ -28,10 +28,8 @@ export type CreateURLOptions = {
 };
 export type EventType = {
     url: string;
-    nativeEvent?: MessageEvent;
 };
 export type URLListener = (event: EventType) => void;
-export type NativeURLListener = (nativeEvent: MessageEvent) => void;
 export type SendIntentExtras = {
     key: string;
     value: string | number | boolean;

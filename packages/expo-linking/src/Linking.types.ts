@@ -36,14 +36,10 @@ export type CreateURLOptions = {
 // @docsMissing
 export type EventType = {
   url: string;
-  nativeEvent?: MessageEvent;
 };
 
 // @docsMissing
 export type URLListener = (event: EventType) => void;
-
-// @docsMissing
-export type NativeURLListener = (nativeEvent: MessageEvent) => void;
 
 // @docsMissing
 export type SendIntentExtras = { key: string; value: string | number | boolean };
